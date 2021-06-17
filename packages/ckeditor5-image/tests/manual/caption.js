@@ -13,7 +13,11 @@ ClassicEditor
 		plugins: [ ArticlePluginSet ],
 		toolbar: [ 'heading', '|', 'undo', 'redo', 'bold', 'italic', 'bulletedList', 'numberedList' ],
 		image: {
-			toolbar: [ 'toggleImageCaption', '|', 'imageStyle:inline', 'imageStyle:original', 'imageStyle:side', '|', 'imageTextAlternative' ]
+			toolbar: [
+				'toggleImageCaption', '|',
+				'imageStyle:inline', 'imageStyle:original', 'imageStyle:side', '|',
+				'imageTextAlternative'
+			]
 		}
 	} )
 	.then( editor => {
