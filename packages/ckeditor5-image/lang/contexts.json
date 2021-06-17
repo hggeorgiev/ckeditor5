@@ -5,6 +5,7 @@
 	"In line": "The label for the image style button that places the image inside the line of text.",
 	"Side image": "The label for the Side image option.",
 	"Full size image": "The label for the Full size image option.",
+	"Original image": "The label for the image style button that resets the image style to the default value.",
 	"Left aligned image": "The label for the Left aligned image option.",
 	"Centered image": "The label for the Centered image option.",
 	"Right aligned image": "The label for the Right aligned image option.",

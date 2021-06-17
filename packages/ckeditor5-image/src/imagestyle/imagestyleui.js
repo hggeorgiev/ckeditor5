@@ -52,7 +52,8 @@ export default class ImageStyleUI extends Plugin {
 	 * * `'Side image'`,
 	 * * `'Left aligned image'`,
 	 * * `'Centered image'`,
-	 * * `'Right aligned image'`
+	 * * `'Right aligned image'`,
+	 * * `'Original image'`
 	 *
 	 * @returns {Object.<String,String>}
 	 */
@@ -67,7 +68,8 @@ export default class ImageStyleUI extends Plugin {
 			'Side image': t( 'Side image' ),
 			'Left aligned image': t( 'Left aligned image' ),
 			'Centered image': t( 'Centered image' ),
-			'Right aligned image': t( 'Right aligned image' )
+			'Right aligned image': t( 'Right aligned image' ),
+			'Original image': t( 'Original image' )
 		};
 	}
 
