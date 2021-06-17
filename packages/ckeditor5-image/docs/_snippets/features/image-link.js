@@ -18,7 +18,7 @@ ClassicEditor
 				'linkImage',
 				'|',
 				'imageStyle:inline',
-				'imageStyle:full',
+				'imageStyle:original',
 				'imageStyle:side'
 			]
 		},

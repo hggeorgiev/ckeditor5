@@ -108,7 +108,7 @@ ClassicEditor
 		image: {
 			toolbar: [
 				'imageStyle:inline',
-				'imageStyle:full',
+				'imageStyle:original',
 				'imageStyle:side',
 				'|',
 				'toggleImageCaption',

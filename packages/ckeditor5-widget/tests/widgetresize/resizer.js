@@ -26,7 +26,7 @@ describe( 'Resizer', () => {
 					ArticlePluginSet
 				],
 				image: {
-					toolbar: [ 'imageStyle:full', 'imageStyle:side' ]
+					toolbar: [ 'imageStyle:original', 'imageStyle:side' ]
 				}
 			} )
 			.then( newEditor => {

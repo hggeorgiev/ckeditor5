@@ -478,7 +478,7 @@ describe( 'WidgetResize', () => {
 					ArticlePluginSet, WidgetResize, simpleWidgetPlugin
 				],
 				image: {
-					toolbar: [ 'imageStyle:full', 'imageStyle:side' ]
+					toolbar: [ 'imageStyle:original', 'imageStyle:side' ]
 				}
 			} );
 		} );
@@ -659,7 +659,7 @@ describe( 'WidgetResize', () => {
 					ArticlePluginSet, WidgetResize, simpleWidgetPlugin
 				],
 				image: {
-					toolbar: [ 'imageStyle:full', 'imageStyle:side' ]
+					toolbar: [ 'imageStyle:original', 'imageStyle:side' ]
 				}
 			} );
 	}

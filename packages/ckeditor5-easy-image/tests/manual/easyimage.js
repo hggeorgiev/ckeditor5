@@ -33,7 +33,7 @@ ClassicEditor
 			'redo'
 		],
 		image: {
-			toolbar: [ 'imageStyle:inline', 'imageStyle:full', 'imageStyle:side', '|', 'imageTextAlternative' ]
+			toolbar: [ 'imageStyle:inline', 'imageStyle:original', 'imageStyle:side', '|', 'imageTextAlternative' ]
 		},
 		table: {
 			contentToolbar: [

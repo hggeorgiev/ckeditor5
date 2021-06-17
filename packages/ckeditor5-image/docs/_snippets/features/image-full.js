@@ -38,7 +38,7 @@ ClassicEditor
 				'imageTextAlternative',
 				'|',
 				'imageStyle:inline',
-				'imageStyle:full',
+				'imageStyle:original',
 				'imageStyle:side',
 				'|',
 				'resizeImage:100',

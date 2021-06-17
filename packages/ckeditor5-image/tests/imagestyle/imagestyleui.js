@@ -31,8 +31,8 @@ describe( 'ImageStyleUI', () => {
 		items: [ 'imageStyle:inline', 'imageStyle:alignLeft' ]
 	}, {
 		name: 'imageStyle:custom2',
-		defaultItem: 'imageStyle:full',
-		items: [ 'imageStyle:full', 'imageStyle:side' ]
+		defaultItem: 'imageStyle:original',
+		items: [ 'imageStyle:original', 'imageStyle:side' ]
 	} ];
 
 	beforeEach( async () => {
@@ -95,7 +95,8 @@ describe( 'ImageStyleUI', () => {
 				'Right aligned image': 'Right aligned image',
 				'Wrap text': 'Wrap text',
 				'Break text': 'Break text',
-				'In line': 'In line'
+				'In line': 'In line',
+				'Original image': 'Original image'
 			} );
 		} );
 	} );
