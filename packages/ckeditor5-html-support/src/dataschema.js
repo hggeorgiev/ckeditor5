@@ -68,13 +68,11 @@ export default class DataSchema extends Plugin {
 	 * @inheritDoc
 	 */
 	init() {
-		const config = this.editor.config.get( 'dataSchema' );
-
-		for ( const definition of config.block ) {
+		for ( const definition of defaultConfig.block ) {
 			this.registerBlockElement( definition );
 		}
 
-		for ( const definition of config.inline ) {
+		for ( const definition of defaultConfig.inline ) {
 			this.registerInlineElement( definition );
 		}
 	}
