@@ -24,7 +24,7 @@ RCHEditor.builtinPlugins = [
 // Editor configuration.
 RCHEditor.defaultConfig = {
 	toolbar: {
-		items: []
+		items: [ 'bulletedList' ]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'de'
