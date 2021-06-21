@@ -10,6 +10,7 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
+import List from '@ckeditor/ckeditor5-list/src/list';
 
 export default class RCHEditor extends ClassicEditorBase {}
 
@@ -18,6 +19,7 @@ RCHEditor.builtinPlugins = [
 	Essentials,
 	Autoformat,
 	Paragraph,
+	List,
 	TextTransformation
 ];
 
